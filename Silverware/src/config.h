@@ -6,7 +6,7 @@
 
 // rate in deg/sec
 // for acro mode
-#define MAX_RATE 360.0
+#define MAX_RATE 720.0
 #define MAX_RATEYAW 360.0
 
 // max angle for level mode
@@ -150,7 +150,7 @@
 // pwm frequency for motor control
 // a higher frequency makes the motors more linear
 // in Hz
-#define PWMFREQ 8000
+#define PWMFREQ 32000
 
 // motor curve to use
 // the pwm frequency has to be set independently
